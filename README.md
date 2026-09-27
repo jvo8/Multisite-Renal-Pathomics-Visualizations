@@ -67,6 +67,12 @@ We made violin plots to show the top 5 most significant features from each test.
 3. Picked the top 5 features with the smallest p-values.
 4. Made violin plots of these features, split by DGF status.
 
+### Direction of Correlations for Top Pathomic Features Identified by Top Performing Model
+1. Pulled the list of top eGFR pathomic features identified by the top-performing model.
+2. Compared this list against the p-values generated from the unharmonized feature analysis described above.
+3. Ran a correlation test between the two sets of features to see how they related to each other.
+4. Created a horizontal bar plot to visualize the direction (positive or negative) and strength of the correlation coefficients for each feature.
+
 ## Results & Visuals
 
 ### DGF vs. Non-DGF (Within Each Cohort)
@@ -92,6 +98,8 @@ The top 5 features that differed the most between institutions were:
 3. Nuclei Spacing (Tubule)
 4. Nuclei Spacing (Artery)
 5. Nuclei Count (Tubule)
+
+![Final ANOVA/Kruskal-Wallis Plot](path/to/Final ANOVA/Kruskal-Wallis Violin Plots)
 
 - Tested using the Kruskal-Wallis test.
 - All five features showed strong, consistent differences between cohorts (p < 0.001).
