@@ -9,7 +9,7 @@ The code below was written specifically for these three cohorts (UC Davis, Mayo 
 
 This project looks at image-based features (pathomic features) taken from kidney biopsy images from three medical centers: UC Davis, Mayo Clinic, and Coimbra. The goal is to see how much these features vary between sites and to find features linked to Delayed Graft Function (DGF).
 
-## Background
+### Background
 
 Data from each medical center was analyzed as-is, without any correction for site-to-site differences (no harmonization or batch-effect correction). Differences in features between cohorts could come from:
 
@@ -18,7 +18,7 @@ Data from each medical center was analyzed as-is, without any correction for sit
 - Different preprocessing steps
 - Real differences between patient groups at each site
 
-## Purpose
+### Purpose
 
 - Figure out whether differences between cohorts are caused by site-related factors (scanners, protocols, etc.) or real biological differences.
 - Give the lab a baseline (unharmonized) result to compare against when testing harmonization methods later.
