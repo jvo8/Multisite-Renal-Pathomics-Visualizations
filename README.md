@@ -99,7 +99,7 @@ The top 5 features that differed the most between institutions were:
 4. Nuclei Spacing (Artery)
 5. Nuclei Count (Tubule)
 
-![Final ANOVA/Kruskal-Wallis Plot](Final%20ANOVA-Kruskal-Wallis%20Violin%20Plot.png)
+![Final ANOVA/Kruskal-Wallis Plot](Final%20ANOVA:Kruskal-Wallis%20Violin%20Plot.png)
 
 - Tested using the Kruskal-Wallis test.
 - All five features showed strong, consistent differences between cohorts (p < 0.001).
