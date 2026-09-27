@@ -24,7 +24,7 @@ Data from each medical center was analyzed as-is, without any correction for sit
 - Give the lab a baseline (unharmonized) result to compare against when testing harmonization methods later.
 - Find features linked to DGF that could help predict kidney outcomes in the future.
 
-## Approach
+## Approach to Creating Violin Plots
 
 ### Step 1: Check if Data is Normal
 
