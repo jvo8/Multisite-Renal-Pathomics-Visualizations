@@ -85,6 +85,8 @@ The top 5 features that separated DGF from non-DGF patients (all found in the Ma
 4. Maximum Distance to Artery Lumen
 5. Mesangial Area Proportion
 
+![image alt](https://github.com/jvo8/Multisite-Renal-Pathomics-Visualizations/blob/1d1734427918b64d32fd8bc7cb7a063ae4cd2408/Final%20DGF%20Stratified%20Wilcoxon%3At-test%20Violin%20Plot)
+
 - Tested using the Wilcoxon rank-sum test.
 - All five features were strongly significant (p < 0.001) and showed a clear split between DGF and non-DGF patients.
 - These features might reflect imaging patterns tied to DGF and could help predict kidney outcomes down the line.
@@ -105,6 +107,15 @@ The top 5 features that differed the most between institutions were:
 - All five features showed strong, consistent differences between cohorts (p < 0.001).
 - This points to systematic differences between sites, likely from scanner or protocol differences, or batch effects.
 - These features are good candidates for checking whether future harmonization methods actually reduce differences between cohorts.
+
+### Directions of Correlations
+
+A correlation test was run to compare the most significant pathomic features (those with the smallest p-values) against the top eGFR-related pathomic features identified by the XGBoost model. This test was performed on the UC Davis and Mayo cohorts, and correlation coefficients were calculated for each top feature.
+
+![image alt](https://github.com/jvo8/Multisite-Renal-Pathomics-Visualizations/blob/1d1734427918b64d32fd8bc7cb7a063ae4cd2408/Final%20Direction%20of%20Association%20of%20Top%20Features%20with%20eGFR%20(UC%20Davis))
+
+![image alt](https://github.com/jvo8/Multisite-Renal-Pathomics-Visualizations/blob/1d1734427918b64d32fd8bc7cb7a063ae4cd2408/Final%20Direction%20of%20Association%20of%20Top%20Features%20with%20eGFR%20(Mayo))
+
 
 ## Key Takeaways
 
