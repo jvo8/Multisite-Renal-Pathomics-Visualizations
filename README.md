@@ -5,6 +5,14 @@ Violin plots and horizontal bar charts for visualizing the distribution and dire
 
 The code below was written specifically for these three cohorts (UC Davis, Mayo Clinic, and Coimbra) and their corresponding patient data. It is meant to create visualizations and run statistical comparisons for this dataset only. If additional cohorts are added in the future, further edits to the code will likely be needed (e.g., updating cohort labels, group comparisons, and etc.). This code does not perform any harmonization or batch-effect correction. It only generates visualizations and statistical results based on the data as given.
 
+The following packages were used for visualizations:
+
+ggplot2
+ggpubr
+grDevices
+MetBrewer
+tidyr
+
 ## Overview
 
 This project looks at image-based features (pathomic features) taken from kidney biopsy images from three medical centers: UC Davis, Mayo Clinic, and Coimbra. The goal is to see how much these features vary between sites and to find features linked to Delayed Graft Function (DGF).
