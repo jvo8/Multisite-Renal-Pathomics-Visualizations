@@ -7,10 +7,10 @@ The code below was written specifically for these three cohorts (UC Davis, Mayo 
 
 The following packages were used for visualizations:
 
-ggplot2
-ggpubr
-grDevices
-MetBrewer
+ggplot2 <br>
+ggpubr <br>
+grDevices <br>
+MetBrewer <br>
 tidyr
 
 ## Overview
